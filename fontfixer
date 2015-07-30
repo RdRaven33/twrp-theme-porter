@@ -6,10 +6,10 @@ PORT_W=`cat PORT_RES | cut -d'x' -f1`
 PORT_H=`cat PORT_RES | cut -d'x' -f2`
 
 PY_S=twrp_fonts.py
-MEDIUM=./fonts/Roboto-Medium.ttf
+MEDIUM=./fonts/Roboto-Condensed.ttf
 REGULAR=./fonts/Roboto-Regular.ttf
-MEDIUM_SIZES=$( echo 11 15 )
-REGULAR_SIZES=$( echo 9 11 13)
+MEDIUM_SIZES=$( echo 40 )
+REGULAR_SIZES=$( echo 20 25 30 40)
 
 if [ ! -e ./$PY_S ]
 then
